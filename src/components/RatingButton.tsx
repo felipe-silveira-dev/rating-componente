@@ -7,7 +7,7 @@ type RatingButton = {
 
 const NoteButton: FC<RatingButton> = ({children, className, active, ...props}) => {
   return (
-    <button {...props} className={`bg-[#12141780] px-4 py-2 text-[#7C8798] hover:bg-[#959EAC] hover:text-secondary rounded-full ${active == false ? ' ' :  'bg-primary !text-secondary'} ${className}`}>
+    <button {...props} className={`bg-[#12141780] px-4 py-2 text-[#7C8798] hover:bg-[#959EAC] hover:text-secondary rounded-full transition-all duration-200 ease-in-out ${active == false ? ' ' :  'bg-primary !text-secondary'} ${className}`}>
       { children }
     </button>
   );

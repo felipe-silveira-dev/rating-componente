@@ -16,10 +16,10 @@
 
 @layer components {
     .btn-primary {
-        @apply bg-primary rounded-full p-2 hover:bg-secondary hover:text-primary uppercase;        
+        @apply bg-primary rounded-full p-2 hover:bg-secondary hover:text-primary uppercase px-4 cursor-pointer transition-all duration-200 ease-in-out;        
     }
 
     .btn-secondary {
-        @apply bg-primary rounded-full p-2 hover:bg-secondary hover:text-primary uppercase;
+        @apply bg-primary rounded-full p-2 hover:bg-secondary hover:text-primary uppercase px-4 cursor-pointer transition-all duration-200 ease-in-out;
     }
 }
