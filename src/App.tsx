@@ -25,7 +25,6 @@ function App() {
   function setNewColor() {
     //crie  random de cores com hsl cor aleatoria
     let color = Math.floor(Math.random() * 360);  
-    console.log(color)
     document.documentElement.style.setProperty('--primary', `${color} 90% 50%`);
   }
 

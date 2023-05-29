@@ -1,7 +1,6 @@
 import { FC, useState } from "react";
 import RatingButton from "./RatingButton";
 import Star from "./icons/Star";
-import Acknowledgment from "./Acknowledgment";
 
 type Rating = {
   className?: string,

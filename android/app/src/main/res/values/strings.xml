@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">rating-component</string>
+    <string name="title_activity_main">rating-component</string>
+    <string name="package_name">com.silveiranda.rating</string>
+    <string name="custom_url_scheme">com.silveiranda.rating</string>
+</resources>
