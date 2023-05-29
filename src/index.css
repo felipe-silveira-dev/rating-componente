@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    :root {
+        --primary: 25 97% 53%;
+        --secondary: 0 0% 100%;
+        --light: 217 12% 63%;
+        --medium: 216 12% 54%;
+        --dark: 213 19% 18%;
+        --very-dark: 216 12% 8%;
+    }
+}
+
+@layer components {
+    .btn-primary {
+        @apply bg-primary rounded-full p-2 hover:bg-secondary hover:text-primary uppercase;        
+    }
+
+    .btn-secondary {
+        @apply bg-primary rounded-full p-2 hover:bg-secondary hover:text-primary uppercase;
+    }
+}
