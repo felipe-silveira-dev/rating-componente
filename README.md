@@ -2,6 +2,10 @@
 
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
+<!-- Add a section with link of result and a text -->
+## Result
+You can see the result [here](https://rating-component-gamma.vercel.app)
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
